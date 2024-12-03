@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para la navegación de síntomas */
+.navegacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.boton-nav {
+    background-color: #007bff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton-nav:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.boton-nav img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.boton-nav p {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Estilo de los botones de edad */
+.mini-menu button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.mini-menu button:hover {
+    background-color: #218838;
+}
+
+/* Mostrar información de productos */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.producto-item {
+    text-align: center;
+    margin: 10px;
+    width: 180px;
+}
+
+.producto-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.producto-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Estilo para el contenido */
+.contenido-seccion {
+    display: none;
+}
+
+.contenido-seccion.active {
+    display: block;
+}
+
+/* Regresar */
+.boton-regresar {
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
